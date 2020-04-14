@@ -11,3 +11,10 @@ C:\Users\Tolmasbek\Desktop\first\obj\Debug\netcoreapp3.1\first.AssemblyInfo.cs
 C:\Users\Tolmasbek\Desktop\first\obj\Debug\netcoreapp3.1\first.dll
 C:\Users\Tolmasbek\Desktop\first\obj\Debug\netcoreapp3.1\first.pdb
 C:\Users\Tolmasbek\Desktop\first\obj\Debug\netcoreapp3.1\first.genruntimeconfig.cache
+C:\Users\Tolmasbek\Desktop\first\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Tolmasbek\Desktop\first\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Tolmasbek\Desktop\first\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Tolmasbek\Desktop\first\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Tolmasbek\Desktop\first\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tolmasbek\Desktop\first\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tolmasbek\Desktop\first\obj\Debug\netcoreapp3.1\first.csproj.CopyComplete
