@@ -16,7 +16,7 @@ namespace first
             }
             else
             {
-                System.Console.WriteLine("No connected !!!");
+                System.Console.WriteLine("Not connected !!!");
             }
 
             string commandText = "Select *from Operators";
@@ -27,15 +27,16 @@ namespace first
             {
                 System.Console.WriteLine($"Pseudonym:{reader.GetValue(0)},\nCategory:{reader.GetValue(1)},NumberOfCalls:{reader.GetValue(2)}");
             }
-
             reader.Close();
+            
             string insertSqlCommand = string.Format($"insert into Operators([Pseudonym],[Category],[NumberOfCalls]) Values('{"rrrr"}', '{2}', '{345}')");
             command = new SqlCommand(insertSqlCommand, con);
-            var result = command.ExecuteReader();
+            var result = command.ExecuteNonQuery();
             if(result > 0)
             {
-                System.Console.WriteLine("Inserted command !!!");
+                System.Console.WriteLine("Insert command successfull!!!");
             }
+            con.Close();
 
             Console.ReadKey();
         }
